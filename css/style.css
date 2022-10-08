@@ -1,0 +1,114 @@
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	color: #fff;
+}
+#wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	flex-direction: column;
+}
+img {
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+}
+input {
+	color: #fff;
+}
+input::placeholder {
+	color: #fff;
+	font-weight: normal;
+}
+input:focus {
+	outline: none;
+}
+input:focus::placeholder {
+	background-color: transparent;
+}
+
+/* clock */
+.clock h2 {
+	font-size: 200px;
+	margin: 0;
+}
+
+/* login */
+.login input {
+	border: none;
+	background: none;
+	border-bottom: 2px solid #fff;
+	font-size: 35px;
+	padding: 5px;
+	max-width: 360px;
+	margin: 10px;
+}
+.login button {
+	font-size: 0;
+	background: none;
+	border: none;
+}
+.message {
+	color: #fff;
+	font-size: 50px;
+	font-weight: normal;
+	margin: 0;
+}
+.hidden {
+	display: none;
+}
+
+/* todoList */
+.todoList {
+	width: 100%;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.todoForm {
+	margin-top: 30px;
+}
+.todoForm input {
+	border: none;
+	background: none;
+	border-bottom: 2px solid #fff;
+	padding: 5px;
+	font-size: 25px;
+}
+ul.todo-list {
+	font-size: 20px;
+	padding: 0;
+}
+ul.todo-list li button {
+	border: none;
+	background: none;
+	color: red;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+/* quotes */
+.quotes {
+	position: absolute;
+	bottom: 30px;
+	left: 30px;
+	font-weight: 100;
+	font-style: italic;
+	color: #fff;
+}
+
+/* weather */
+.weather {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	font-weight: 100;
+	font-style: italic;
+}

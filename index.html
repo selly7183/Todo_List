@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>challenge_day10</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div id="wrap">
+			<div class="clock">
+				<h2>00:00:00</h2>
+			</div>
+			<div class="login">
+				<form class="loginForm hidden">
+					<input type="text" placeholder="Type your name here" />
+					<button>LOGIN</button>
+				</form>
+				<h2 class="message hidden"></h2>
+			</div>
+			<div class="todoList">
+				<form class="todoForm">
+					<input placeholder="Write a To Do here" required />
+				</form>
+				<ul class="todo-list"></ul>
+			</div>
+			<div class="quotes">
+				<span></span>
+				<span></span>
+			</div>
+			<div class="weather">
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<script src="js/TodoList.js"></script>
+		<script src="js/Clock.js"></script>
+		<script src="js/Greeting.js"></script>
+		<script src="js/Quotes.js"></script>
+		<script src="js/Background.js"></script>
+		<script src="js/Weather.js"></script>
+	</body>
+</html>
